@@ -7,6 +7,7 @@ from collections import defaultdict
 # Example of usage:
 # python3 metrics.py base_path simulation=1005/1009 metrics=cbr/aoi/pdr or python metrics.py base_path simulation=1005/1009 metrics=all
 
+
 start_time = time.time()
 distance_limit = 920
 # Specify the fields you want to extract
