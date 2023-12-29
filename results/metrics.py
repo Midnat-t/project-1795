@@ -4,14 +4,13 @@ import numpy as np
 import os
 from collections import defaultdict
 
-# Example:
+# Example of usage:
 # python3 metrics.py base_path simulation=1005/1009 metrics=cbr/aoi/pdr or python metrics.py base_path simulation=1005/1009 metrics=all
 
 start_time = time.time()
 distance_limit = 920
 # Specify the fields you want to extract
 fields = ['rxTime', 'packetID', 'TxDistance', 'txID', 'rxID', 'decoded', 'lossType']
-v=[]
 
 regions_list = list(range(18))  # Array with indexes of regions
 print(regions_list)
